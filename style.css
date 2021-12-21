@@ -1,0 +1,169 @@
+
+.container{
+	max-width: 1024px;
+	margin: 0px auto;
+	margin-top: 10px;
+	height: 2000px;
+}
+.header{
+	position: sticky;
+	top:0;
+}
+li{
+	list-style: none;
+	user-select: none;
+	cursor: pointer;
+	color: white;
+	display: inline-block;
+	padding: 8px;
+	background-color: red;
+}
+ul{
+	margin: 0;
+	padding: 0;
+
+}
+
+.slider{
+	width: 80px;
+	height: 5px;
+	background-color: black;
+	transition: all 0.5s ease-in-out;
+}
+.home{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+.home1{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.img{
+	width: 150%;
+}
+.pic{
+	width: 32%;
+	height: 250px;
+	overflow: hidden;
+}
+.img1{
+	width: 100%;
+}
+.pic1{
+	width: 32%;
+	height: 250px;
+	overflow: hidden;
+}
+.homeHide{
+	display: none;
+}
+.homeShow{
+	display: block;
+}
+.login{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: none;
+}
+.forInput{
+	width: 40%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.forInput1{
+	width: 40%;
+	height: 30px;
+	background-color: red;
+	color: white;
+}
+label{
+	font-size: 20px;
+}
+.loginText{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.slideShow{
+	width: 80%;
+	margin: 0 auto;
+	margin-top:60px;
+	display: flex;
+	flex-direction: row;
+	display: none;
+}
+.Icon1Div{
+	width: 10%;
+	display: inline-block;
+}
+.Icon2Div{
+	width: 10%;
+	display: inline-block;
+}
+.ImgDiv{
+	width: 60%;
+	height: 250px;
+	display: inline-block;
+	overflow: hidden;
+}
+.slideImg{
+	width: 100%;
+}
+.icon1{
+	margin-left: 20px;
+	font-size: 60px;
+}
+.icon2{
+	margin-left: 20px;
+	font-size: 60px;
+}
+
+@media(max-width: 500px){
+	.ulMenu{
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	.pic{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.pic1{
+		width: 100%;
+		height: 260px;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.img1{
+		width: 100%;
+	}
+	.login{
+		width: 100%;
+		text-align: center;
+	}
+	.slideShow{
+		width: 100%;
+		text-align: center;
+	}
+	.ImgDiv{
+		width: 60%;
+		height: 100px;
+		display: inline-block;
+		overflow: hidden;
+	}
+	.slideImg{
+		width: 100%;
+		margin-left: 30px;
+	}
+	.home{
+		margin-bottom: 0px;
+	}
+}
